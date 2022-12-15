@@ -1,10 +1,8 @@
-const array = [1, 2, 3, 4, 5];
+const array = [1, 2, 3, 4, 5, 21, 22, 23, 24, 222];
 
 const result = array.map((num) => {
   return num + 1;
 });
-
-console.log(result);
 
 for (let i = 0; i < array.length; i++) {
   const element = array[i];
@@ -13,6 +11,6 @@ for (let i = 0; i < array.length; i++) {
   console.log('i: ', i);
 }
 
-if (result > 5) {
+if (result > 21) {
   return;
 }
