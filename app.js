@@ -5,3 +5,14 @@ const result = array.map((num) => {
 });
 
 console.log(result);
+
+for (let i = 0; i < array.length; i++) {
+  const element = array[i];
+
+  console.log('array: ', array);
+  console.log('i: ', i);
+}
+
+if (result > 5) {
+  return;
+}
